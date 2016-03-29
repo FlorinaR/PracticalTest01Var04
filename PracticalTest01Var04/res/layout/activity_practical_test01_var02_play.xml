@@ -1,0 +1,90 @@
+<GridLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:rowCount="5"
+    android:columnCount="2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <TextView
+        android:id="@+id/guess_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="0"
+        android:ems="7"
+        android:gravity="center"
+        android:text="@string/guest_edittext" />
+
+    <EditText
+        android:id="@+id/guess_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_row="0"
+        android:editable="false"
+        android:ems="7"
+        android:gravity="center"
+        android:inputType="number" />
+    
+        <Button
+        android:id="@+id/check_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_columnSpan="2"
+	    android:gravity="center" 
+	    android:layout_row="1"
+	    android:layout_column="0"
+	    android:text="@string/checkButton_text" />
+        
+                <Button
+        android:id="@+id/generate_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_columnSpan="2"
+	    android:gravity="center" 
+	    android:layout_row="2"
+	    android:layout_column="0"
+	    android:text="@string/generateButton_text" />
+                
+                        <Button
+        android:id="@+id/back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_columnSpan="2"
+	    android:gravity="center" 
+	    android:layout_row="3"
+	    android:layout_column="0"
+	    android:text="@string/backButton_text" />
+                        
+                                <TextView
+        android:id="@+id/score_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="4"
+        android:ems="7"
+        android:gravity="center"
+        android:text="@string/score_label" />
+
+    <EditText
+        android:id="@+id/score_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:editable="false"
+        android:layout_row="4"
+        android:ems="7"
+        android:gravity="center"
+        android:inputType="number" />
+                        
+    
+    
+
+</GridLayout>

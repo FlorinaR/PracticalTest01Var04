@@ -1,0 +1,43 @@
+<GridLayout
+    android:layout_width="match_parent" 
+    android:layout_height="wrap_content"
+    android:rowCount="2"
+    android:columnCount="2"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+        <TextView
+        android:id="@+id/number_textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="0"
+        android:layout_gravity="center"
+        android:layout_row="0"
+        android:ems="7"
+        android:gravity="center"
+        android:text="@string/edittext_label" />
+
+    <EditText
+        android:id="@+id/number_edittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_column="1"
+        android:layout_gravity="center"
+        android:layout_row="0"
+        android:ems="7"
+        android:gravity="center"
+        android:inputType="number" />
+    
+        <Button
+        android:id="@+id/play_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+	    android:layout_gravity="center"
+	    android:layout_columnSpan="2"
+	    android:gravity="center" 
+	    android:layout_row="1"
+	    android:layout_column="0"
+	    android:text="@string/playButton_text" />
+    
+    
+
+</GridLayout>
